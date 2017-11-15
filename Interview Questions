@@ -1,0 +1,63 @@
+Interview Questions
+
+
+How to analyze run time complexity
+
+Run time depends on 
+1. Single vs Multiprocessor
+2. Read/Write speed to memory
+3. 32 bit vs 64 bit architecture
+4. Input -> Rate of growth given input
+
+General Rules
+
+O(1)
+int a;
+a = 5
+a++
+
+Single Loop
+O(n)
+for(i = 0; i < n; i++) {
+  
+}
+
+Double Loop
+O(n^2)
+for(i = 0; i < n; i++) {
+  for(i = 0; i < n; i++) {
+    
+  } 
+}
+
+function () {
+  // O(1)
+  int a;
+  a = 5;
+  a++ ;
+  for(i = 0; i < n; i++) {
+    // O(n)  
+  }
+  // O(n^2)
+  for(i = 0; i < n; i++) {
+    for(i = 0; i < n; i++) {
+      
+    } 
+  }
+}
+
+Factorial
+
+fact(n) {
+  if n == 0
+    return 1
+  else 
+    return n*fact(n-1)
+}
+
+i = n
+while i > 0:
+  k = 2 + 2
+  i = i // 2
+
+
